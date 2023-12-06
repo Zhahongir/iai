@@ -1,0 +1,152 @@
+.news {
+    position: relative;
+    padding-top: 80px;
+    overflow: hidden;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__title {
+            opacity: 0;
+        }
+        &__btns {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            opacity: 0;
+            .news__wrap__btns__el {
+                position: relative;
+                left: 0;
+                right: 0;
+                width: 55px;
+                height: 55px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                border-radius: 100%;
+                border: 1px solid rgba(0, 0, 0, 0.20);
+                transition: 0.5s linear;
+                margin-top: 0;
+                margin-bottom: 0;
+                cursor: pointer;
+                &:hover {
+                    background-color: $color-red;
+                    border: 1px solid $color-red;
+                }
+                &:hover .news__wrap__btns__el__icon {
+                    z-index: 2;
+                    opacity: 1;
+                }
+                &::after {
+                    display: none;
+                }
+                &:first-child {
+                    transform: rotate(0deg);
+                }
+                &:first-child .news__wrap__btns__el__icon {
+                    transform: rotate(180deg);
+                }
+                &:last-child {
+                    transform: rotate(180deg);
+                }
+                &:last-child .news__wrap__btns__el__icon {
+                    transform: rotate(180deg);
+                }
+                &__red {
+                    width: 20px;
+                    height: 20px;
+                }
+                &__icon {
+                    width: 20px;
+                    height: 20px;
+                    fill: transparent;
+                    stroke: #000;
+                    position: absolute;
+                    left: 16px;
+                    top: 17px;
+                    z-index: -1;
+                    opacity: 0;
+                    transition: 0.5s linear;
+                }
+            }
+        }
+    }
+    &__swiper {
+        position: relative;
+        margin-top: 20px;
+        padding-left: calc((100% - 1200px) / 2);
+        opacity: 0;
+        &__inner {
+            &__slide {
+                width: 550px !important;
+                &__item {
+                    width: 550px;
+                    height: 360px;
+                    padding: 15px 20px 35px 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    border-radius: 8px;
+                    position: relative;
+                    overflow: hidden;
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        background: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, #000 100%);
+                        z-index: 1;
+                        border-radius: 8px;
+                    }
+                    &:hover &__image {
+                        transform: scale(1.1);
+                    }
+                    &__data {
+                        z-index: 2;
+                        border-radius: 8px;
+                        background: rgba(237, 43, 71, 0.50);
+                        backdrop-filter: blur(2px);
+                        padding: 7px 26px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #fff;
+                        font-family: 'Stolz-Regular';
+                        width: max-content;
+                        width: 130px;
+                        text-align: center;
+                    }
+                    &__info {
+                        z-index: 2;
+                        position: relative;
+                        &__title {
+                            font-size: 20px;
+                            font-weight: 400;
+                            font-family: 'Stolz-Regular';
+                            color: #fff;
+                        }
+                        &__descr {
+                            font-size: 14px;
+                            font-weight: 400;
+                            font-family: 'Stolz-Regular';
+                            color: $color-gray-1;
+                            margin-top: 10px;
+                        }
+                    }
+                    &__image {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        z-index: -1;
+                        transition: 0.5s linear;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}

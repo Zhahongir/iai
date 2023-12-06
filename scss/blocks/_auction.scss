@@ -1,0 +1,49 @@
+.auction {
+    position: relative;
+    background-color: $color-dark;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    &__wrap {
+        position: relative;
+        &__title {
+            font-size: 32px;
+            font-weight: 400;
+            color: #fff;
+            font-family: 'Stolz-Regular';
+            text-align: center;
+            width: 890px;
+            margin: 0 auto;
+            opacity: 0;
+            span {
+                color: $color-red;
+                font-weight: 500;
+                font-family: 'Stolz-Medium';
+            }
+        }
+        &__content {
+            position: relative;
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            &__item {
+                width: 380px;
+                border: 1px solid #727272;
+                border-radius: 8px;
+                padding: 15px 20px 30px 20px;
+                opacity: 0;
+                &__star {
+                    width: 60px;
+                    height: 60px;
+                }
+                &__descr {
+                    margin-top: 20px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: 'SF-Medium';
+                    color: $color-gray-1;
+                }
+            }
+        }
+    }
+}

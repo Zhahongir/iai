@@ -1,0 +1,67 @@
+.about {
+    position: relative;
+    padding-top: 100px;
+    &__wrap {
+        position: relative;
+        &__head {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            &__title {
+                width: 580px;
+                font-size: 24px;
+                font-weight: 600;
+                font-family: 'SF-Semibold';
+                color: $color-dark;
+                text-transform: uppercase;
+                opacity: 0;
+                span {
+                    font-weight: 600;
+                    font-family: 'SF-Semibold';
+                    color: $color-red;
+                }
+            }
+            &__description {
+                width: 580px;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: 'SF-Regular';
+                color: $color-gray-2;
+                opacity: 0;
+            }
+        }
+        &__main {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+            &__photo {
+                width: 580px;
+                height: 322px;
+                border-radius: 8px;
+                object-fit: cover;
+                opacity: 0;
+            }
+            &__info {
+                width: 580px;
+                &__title {
+                    font-size: 24px;
+                    font-weight: 600;
+                    font-family: 'SF-Semibold';
+                    color: $color-dark;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                    opacity: 0;
+                }
+                &__text {
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: 'SF-Regular';
+                    color: $color-gray-2;
+                    margin-top: 15px;
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+

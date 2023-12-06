@@ -1,0 +1,258 @@
+.planes {
+    position: relative;
+    padding-bottom: 120px;
+    &__title {
+        text-align: center;
+    }
+    &__wrap {
+        margin-top: 30px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        &__card-one {
+            position: relative;
+            text-align: center;
+            border: 2px solid rgba(110, 76, 218, 1);
+            border-radius: 8px;
+            padding: 35px 25px 30px 25px;
+            width: 380px;
+            transition: 0.5s linear;
+            cursor: pointer;
+            &:hover {
+                transform: translateY(-10px);
+            }
+            &__title {
+                font-size: 48px;
+                font-weight: 700;
+                font-family: 'Buyan';
+                text-align: center;
+                background: linear-gradient(180deg, #DC739A 0%, #6E4CDA 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            &__price {
+                font-size: 20px;
+                font-weight: 500;
+                font-family: 'Stolz-Medium';
+                color: $color-gray-2;
+                margin-top: 10px;
+                text-align: center;
+            }
+            &__image {
+                width: 200px;
+                height: 200px;
+                margin-top: 15px;
+            }
+            &__info {
+                margin-top: 25px;
+                position: relative;
+                text-align: left;
+                padding-top: 20px;
+                border-top: 1px solid #DDDDDD;
+                &__item {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    column-gap: 5px;
+                    &__icon {
+                        width: 25px;
+                    }
+                    &__text {
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-family: 'Stolz-Regular';
+                        color: $color-dark;
+                        span {
+                            font-size: 16px;
+                            font-weight: 400;
+                            font-family: 'Stolz-Regular';
+                            color: $color-gray-2;
+                        }
+                    }
+                }
+                &__btn {
+                    width: 100%;
+                    margin-top: 30px;
+                    padding: 18px 32px;
+                    font-size: 16px;
+                    color: #fff;
+                    text-align: center;
+                    font-family: 'Stolz-Regular';
+                    background-color: $color-red;
+                    border: 1px solid $color-red;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: 0.3s linear;
+                    &:hover {
+                        background-color: $color-dark;
+                        border: 1px solid $color-dark;
+                    }
+                }
+            }
+        }
+        &__card-second {
+            position: relative;
+            text-align: center;
+            border: 2px solid $color-red;
+            background-color: $color-red;
+            border-radius: 8px;
+            padding: 35px 25px 30px 25px;
+            width: 380px;
+            transition: 0.5s linear;
+            cursor: pointer;
+            &:hover {
+                transform: translateY(-10px);
+            }
+            &__title {
+                font-size: 48px;
+                font-weight: 700;
+                font-family: 'Buyan';
+                text-align: center;
+                color: #fff;
+            }
+            &__price {
+                font-size: 20px;
+                font-weight: 500;
+                font-family: 'Stolz-Medium';
+                color: #fff;
+                margin-top: 10px;
+                text-align: center;
+            }
+            &__image {
+                width: 200px;
+                height: 200px;
+                margin-top: 15px;
+            }
+            &__info {
+                margin-top: 25px;
+                position: relative;
+                text-align: left;
+                padding-top: 20px;
+                border-top: 1px solid #DDDDDD;
+                &__item {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    column-gap: 5px;
+                    &__icon {
+                        width: 25px;
+                    }
+                    &__text {
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-family: 'Stolz-Medium';
+                        color: #fff;
+                        span {
+                            font-size: 16px;
+                            font-weight: 400;
+                            font-family: 'Stolz-Regular';
+                            color: #fff;
+                        }
+                    }
+                }
+                &__btn {
+                    width: 100%;
+                    margin-top: 30px;
+                    padding: 18px 32px;
+                    font-size: 16px;
+                    color: $color-red;
+                    text-align: center;
+                    font-family: 'Stolz-Regular';
+                    background-color: #fff;
+                    border: 1px solid #fff;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: 0.3s linear;
+                    &:hover {
+                        background-color: $color-dark;
+                        border: 1px solid $color-dark;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        &__card-three {
+            position: relative;
+            text-align: center;
+            border: 2px solid $color-dark;
+            background-color: $color-dark;
+            border-radius: 8px;
+            padding: 35px 25px 30px 25px;
+            width: 380px;
+            transition: 0.5s linear;
+            cursor: pointer;
+            &:hover {
+                transform: translateY(-10px);
+            }
+            &__title {
+                font-size: 48px;
+                font-weight: 700;
+                font-family: 'Buyan';
+                text-align: center;
+                color: #fff;
+            }
+            &__price {
+                font-size: 20px;
+                font-weight: 500;
+                font-family: 'Stolz-Medium';
+                color: #fff;
+                margin-top: 10px;
+                text-align: center;
+            }
+            &__image {
+                width: 200px;
+                height: 200px;
+                margin-top: 15px;
+            }
+            &__info {
+                margin-top: 25px;
+                position: relative;
+                text-align: left;
+                padding-top: 20px;
+                border-top: 1px solid #DDDDDD;
+                &__item {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    column-gap: 5px;
+                    &__icon {
+                        width: 25px;
+                    }
+                    &__text {
+                        font-size: 15px;
+                        font-weight: 500;
+                        font-family: 'Stolz-Medium';
+                        color: #fff;
+                        span {
+                            font-size: 15px;
+                            font-weight: 400;
+                            font-family: 'Stolz-Regular';
+                            color: #fff;
+                        }
+                    }
+                }
+                &__btn {
+                    width: 100%;
+                    margin-top: 30px;
+                    padding: 18px 32px;
+                    font-size: 16px;
+                    color: #fff;
+                    text-align: center;
+                    font-family: 'Stolz-Regular';
+                    background-color: $color-red;
+                    border: 1px solid $color-red;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: 0.3s linear;
+                    &:hover {
+                        background-color: #fff;
+                        border: 1px solid #fff;
+                        color: $color-dark;
+                    }
+                }
+            }
+        }
+    }
+}

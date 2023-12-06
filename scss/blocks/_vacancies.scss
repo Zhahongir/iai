@@ -1,0 +1,132 @@
+.vacancies {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    overflow: hidden;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__title {
+            opacity: 0;
+        }
+    }
+    &__wrap {
+        position: relative;
+        margin-top: 20px;
+        padding-left: calc((100% - 1200px) / 2);
+        padding-right: 50px;
+        opacity: 0;
+        &__contain {
+            &__slide {
+                width: 550px !important;
+                &__item {
+                    width: 550px;
+                    position: relative;
+                    border-radius: 8px;
+                    border: 1px solid #E0E0E0;
+                    padding: 25px 30px 30px 30px;
+                    &__header {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 20px;
+                        &__photo {
+                            width: 70px;
+                            height: 70px;
+                        }
+                        &__info {
+                            position: relative;
+                            &__title {
+                                font-size: 20px;
+                                font-weight: 500;
+                                font-family: 'SF-Medium';
+                                color: $color-dark;
+                            }
+                            &__price {
+                                font-size: 16px;
+                                font-weight: 500;
+                                font-family: 'SF-Medium';
+                                color: #05B10C;
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                    &__content {
+                        position: relative;
+                        margin-top: 25px;
+                        &__title {
+                            font-size: 18px;
+                            font-weight: 500;
+                            font-family: 'SF-Medium';
+                            color: $color-dark;
+                        }
+                        &__list {
+                            list-style-type: disc;
+                            padding-left: 15px;
+                            position: relative;
+                            margin-top: 10px;
+                            &__item {
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: $color-gray-2;
+                                font-family: 'SF-Medium';
+                                &:not(:last-child) {
+                                    margin-bottom: 5px;
+                                }
+                            }
+                        }
+                        &__note {
+                            margin-top: 15px;
+                            position: relative;
+                            &__text {
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: $color-dark;
+                                font-family: 'SF-Medium';
+                                margin-bottom: 5px;
+                            }
+                        }
+                        &__btns {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            justify-content: space-between;
+                            &__whatsapp {
+                                width: 240px;
+                                padding: 18px 20px;
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: #fff;
+                                background-color: #48C95F;
+                                border-radius: 8px;
+                                text-align: center;
+                                transition: 0.3s linear;
+                                border: 1px solid #48C95F;
+                                &:hover {
+                                    background-color: transparent;
+                                    color: #48C95F;
+                                }
+                            }
+                            &__phone {
+                                width: 240px;
+                                padding: 18px 20px;
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: #fff;
+                                background-color: $color-red;
+                                border-radius: 8px;
+                                text-align: center;
+                                transition: 0.3s linear;
+                                border: 1px solid $color-red;
+                                &:hover {
+                                    background-color: transparent;
+                                    color: $color-red;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,159 @@
+.order {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 75px;
+    &__title {
+        opacity: 0;
+    }
+    &__descr {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'SF-Regular';
+        color: $color-gray-2;
+        margin-top: 10px;
+        opacity: 0;
+    }
+    &__form {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        &__left {
+            width: 580px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            &__title {
+                font-size: 18px;
+                font-weight: 400;
+                font-family: 'SF-Regular';
+                margin-top: 20px;
+                color: #303030;
+                margin-bottom: 15px;
+            }
+            &__radio {
+                display: flex;
+                align-items: center;
+                column-gap: 15px;
+                margin-top: 15px;
+                position: relative;
+                &__input {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: -1;
+                    width: max-content;
+                    height: 100%;
+                }
+                &__telegram__label {
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: 'SF-Medium';
+                    padding: 18px 32px;
+                    background-color: #27A6E5;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    color: #fff;
+                }
+                &__whatsapp__label {
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: 'SF-Medium';
+                    padding: 18px 32px;
+                    background-color: #ECF1F7;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    color: $color-gray-2;
+                }
+            }
+        }
+        &__right {
+            width: 580px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            &__select {
+                width: 100%;
+                padding: 18px 20px;
+                border-radius: 8px;
+                background-color: #ECF1F7;
+                font-size: 18px;
+                font-weight: 400;
+                font-family: 'SF-Regular';
+                border: none;
+                margin-bottom: 15px;
+                color: $color-dark;
+                cursor: pointer;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                position: relative;
+                &::-ms-expand {
+                    display: none;
+                }
+                &:focus {
+                    outline: 2px solid $color-gray-4;
+                }
+                option {
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: 'SF-Regular';
+                }
+            }
+            &__btn {
+                border: none;
+                width: max-content;
+                margin-top: 50px;
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+.order__form__title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'SF-Medium';
+    color: $color-dark;
+    margin-bottom: 15px;
+}
+
+.order__form__input {
+    width: 100%;
+    padding: 18px 20px;
+    border-radius: 8px;
+    background-color: #ECF1F7;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'SF-Regular';
+    border: none;
+    margin-bottom: 15px;
+    color: $color-dark;
+}
+
+.order__form__input::placeholder {
+    color: $color-gray-2;
+}
+
+.order__form__input:focus {
+    outline: 2px solid $color-gray-4;
+}
+
+.order__form__right__wrap-sel {
+    position: relative;
+}
+
+.order__form__right__wrap-sel::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 20px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../icons/arrow-down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    pointer-events:none;
+}   

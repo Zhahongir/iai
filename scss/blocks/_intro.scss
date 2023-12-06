@@ -1,0 +1,102 @@
+.intro {
+    position: relative;
+    padding-top: 100px;
+    background-color: $color-dark;
+    height: 700px;
+    .intro__wrap-club {
+        margin-top: 80px;
+    }
+    &__wrap {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__content {
+            position: relative;
+            &__crumbs {
+                display: flex;
+                align-items: center;
+                column-gap: 10px;
+                &__last {
+                    display: flex;
+                    align-items: center;
+                    column-gap: 5px;
+                    transition: 0.3s linear;
+                    &:hover {
+                        color: #fff;
+                    }
+                    &__icons {
+                        width: 20px;
+                        height: 20px;
+                    }
+                    &__text {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: $color-gray-4;
+                    }
+                }
+                &__divider {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: $color-gray-4;
+                }
+                &__real {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: $color-red;
+                    font-family: 'SF-Semibold';
+                }
+            }
+            &__title-one {
+                font-size: 140px;
+                color: #fff;
+                font-weight: 700;
+                font-family: 'Buyan';
+                margin-top: 10px;
+            }
+            &__title-second {
+                font-size: 100px;
+                color: #fff;
+                font-weight: 700;
+                font-family: 'Buyan';
+                margin-top: 10px;
+                span {
+                    color: $color-red;
+                    font-weight: 700;
+                    font-family: 'Buyan';
+                }
+            }
+            &__title-three {
+                font-size: 120px;
+                color: #fff;
+                font-weight: 700;
+                font-family: 'Buyan';
+                margin-top: 10px;
+            }
+            &__descr {
+                font-size: 16px;
+                color: $color-gray-4;
+                font-weight: 400;
+                font-family: 'Stolz-Regular';
+                width: 545px;
+                margin-top: 5px;
+                margin-bottom: 25px;
+            }
+        }
+        &__photo-one {
+            width: 455px;
+            height: auto;   
+            margin-top: 50px;
+        }
+        &__photo-second {
+            width: 480px;
+            height: auto;   
+            object-fit: cover;
+        }
+        &__photo-three {
+            width: 400px;
+            height: auto;   
+            object-fit: cover;
+        }
+    }
+}

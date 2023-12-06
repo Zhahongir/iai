@@ -1,0 +1,502 @@
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header__wrap__content__cta {
+        display: none;
+    }
+
+    .header__wrap__content__dropdown__button {
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: 15px;
+    }
+
+    .promo__wrap__title {
+        font-size: 70px;
+    }
+
+    .about {
+        padding-top: 40px;
+    }
+
+    .about__wrap__head__title {
+        font-size: 20px;
+    }
+
+    .about__wrap__main__photo {
+        height: 220px;
+    }
+
+    .about__wrap__main__info__title br {
+        display: none;
+    }
+
+    .about__wrap__main__info__title {
+        font-size: 20px;
+    }
+
+    .numbers__wrap__left__content {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .numbers__wrap__left__content__item {
+        width: 100%;
+    }
+
+    .numbers__wrap__left__content__item {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+    }
+
+    .numbers__wrap__left__content__item__number {
+        font-size: 75px;
+    }
+
+    .numbers__wrap__left__content__item__descr {
+        font-size: 12px;
+    }
+
+    .title-dark {
+        font-size: 32px;
+    }
+
+    .title-white {
+        font-size: 32px;
+    }
+
+    .numbers {
+        padding-bottom: 60px;
+    }
+
+    .auction__wrap__title {
+        font-size: 18px;
+    }
+
+    .order__descr {
+        font-size: 15px;
+    }
+
+    .order__form__left__title {
+        font-size: 16px;
+    }
+
+    .order__form__right__btn {
+        margin-top: 10px;
+    }
+
+    .advantages__title {
+        text-align: center;
+    }
+
+    .advantages .advantages__wrap {
+        justify-content: center;
+    }
+
+    .club__wrap__images__card-1 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .club__wrap__images__card-2 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .club__wrap__images__crown {
+        width: 150px;
+        height: 150px;
+    }
+
+    .club__wrap__images__crown {
+        left: 70px;
+    }
+
+    .club__wrap {
+        padding: 40px 20px 45px 20px;
+    }
+
+    .club__wrap__info__subtitle {
+        font-size: 16px;
+    }
+
+    .club__wrap__info__descr {
+        font-size: 14px;
+    }
+
+    .cooperation__wrap__photo {
+        width: 270px;
+    }
+
+    .cooperation__wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cooperation__wrap__info {
+        padding-top: 25px;
+    }
+
+    .cooperation__wrap__info__subtitle {
+        font-size: 18px;
+    }
+
+    .cooperation__wrap__info__descr {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .cooperation {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .faq {
+        padding-top: 50px;
+    }
+
+    .faq__wrap__item__control__title {
+        font-size: 15px;
+    }
+
+    .faq__wrap__item__control {
+        padding: 25px 15px;
+    }
+
+    .open .faq__wrap__item__content {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .faq__wrap__item__content__text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .faq__wrap__item__content__text {
+        font-size: 14px;
+    }
+    
+    .news {
+        padding-top: 50px;
+    }
+
+    .news__swiper__inner__slide__item {
+        width: 320px;
+        height: 260px;
+        padding: 15px 15px 25px 15px;
+    }
+
+    .news__swiper__inner__slide {
+        width: 320px !important;
+    }
+
+    .news__swiper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .news__swiper__inner__slide__item__info__title {
+        font-size: 16px;
+    }
+
+    .news__swiper__inner__slide__item__info__descr {
+        font-size: 12px;
+    }
+
+    .vacancies {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .vacancies__wrap {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .vacancies__wrap__contain__slide__item {
+        width: 320px;
+        padding: 25px 20px 30px 20px;
+    }
+
+    .vacancies__wrap__contain__slide {
+        width: 320px !important;
+    }
+
+    .vacancies__wrap__contain__slide__item__header__info__price {
+        font-size: 14px;
+    }
+
+    .vacancies__wrap__contain__slide__item__header__info__title {
+        font-size: 16px;
+    }
+
+    .vacancies__wrap__contain__slide__item__header {
+        column-gap: 15px;
+    }
+
+    .vacancies__wrap__contain__slide__item__content__list__item {
+        font-size: 14px;
+    }
+
+    .vacancies__wrap__contain__slide__item__content__note__text {
+        font-size: 14px;
+    }
+
+    .vacancies__wrap__contain__slide__item__header__photo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .reviews {
+        padding-top: 50px;
+    }
+
+    .reviews__wrap__contain__slide__item {
+        width: 320px;
+        padding: 20px 20px 30px 20px;
+    }
+
+    .reviews__wrap__contain__slide {
+        width: 320px !important;
+    }
+
+    .reviews__wrap {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .parthers {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .contacts {
+        padding-top: 50px;
+        border-radius: 32px 32px 0 0;
+    }
+
+    .contacts__wrap__left__info {
+        margin-top: 25px;
+    }
+
+    .contacts__wrap__left__info {
+        row-gap: 25px;
+    }
+
+    .contacts__wrap__left__info__item__title {
+        font-size: 16px;
+    }
+
+    .contacts__wrap__left__info__item__title {
+        margin-bottom: 5px;
+    }
+
+    .footer__wrap__content__nav__lists {
+        column-gap: 30px;
+    }
+
+    .footer__down {
+        row-gap: 15px;
+    }
+
+    .footer__down__privacy {
+        font-size: 15px;
+    }
+
+    .promo {
+        height: 670px;
+    }
+
+    .promo__wrap {
+        height: 670px;
+    }
+
+    #tubular-container {
+        height: 670px !important;
+    }
+
+    .promo::before {
+        height: 670px !important;
+    }
+
+    .intro__wrap__content__descr {
+        width: 100%;
+    }
+
+    .intro__wrap__content__title-one {
+        font-size: 70px;
+    }
+
+    .bargaining {
+        padding-top: 50px;
+    }
+
+    .planes__wrap__card-one__header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .planes__wrap__card-one__header__name {
+        align-items: center;
+    }
+
+    .planes__wrap__card-one__title {
+        font-size: 36px;
+    }
+
+    .planes__wrap__card-one {
+        padding: 35px 20px 30px 20px;
+    }
+
+    .planes__wrap__card-one__info__item__text {
+        font-size: 14px;
+    }
+
+    .planes__wrap__card-one__info__item__text span {
+        font-size: 14px;
+    }
+
+    .planes__wrap__card-one__info__btn {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .planes__wrap__card-second__header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .planes__wrap__card-second__header__name {
+        align-items: center;
+    }
+
+    .planes__wrap__card-second__title {
+        font-size: 36px;
+    }
+
+    .planes__wrap__card-second {
+        padding: 35px 20px 30px 20px;
+    }
+
+    .planes__wrap__card-second__info__item__text {
+        font-size: 14px;
+    }
+
+    .planes__wrap__card-second__info__item__text span {
+        font-size: 14px;
+    }
+
+    .planes__wrap__card-second__info__btn {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .planes__wrap__card-three__header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .planes__wrap__card-three__header__name {
+        align-items: center;
+    }
+
+    .planes__wrap__card-three__title {
+        font-size: 36px;
+    }
+
+    .planes__wrap__card-three {
+        padding: 35px 20px 30px 20px;
+    }
+
+    .planes__wrap__card-three__info__item__text {
+        font-size: 14px;
+    }
+
+    .planes__wrap__card-three__info__item__text span {
+        font-size: 14px;
+    }
+
+    .planes__wrap__card-three__info__btn {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .bargaining__wrap__left__text {
+        margin-top: 15px;
+    }
+    
+    .intro__wrap__photo-second {
+        width: 100%;
+    }
+
+    .intro__wrap__content__title-second {
+        font-size: 48px;
+    }
+
+    .vip__wrap {
+        justify-content: center;
+    }
+
+    .vip__wrap__item {
+        height: max-content;
+        padding-bottom: 40px;
+    }
+
+    .vip .button-main {
+        margin-top: 30px;
+    }
+
+    .intro__wrap__content__title-three {
+        font-size: 48px;
+    }
+
+    .repair__wrap__content__image {
+        height: 250px;
+    }
+
+    .repair {
+        padding-bottom: 80px;
+    }
+
+    .repair__wrap__content__services__list__item__text {
+        font-size: 15px;
+    }
+
+    .menu__wrap__nav {
+        width: 100%;
+    }
+
+    .menu__wrap__nav__list {
+        row-gap: 0;
+        margin-top: 0;
+    }
+
+    .menu__wrap__nav__list:first-child .menu__wrap__nav__list__item:first-child {
+        border-top: none;
+    }
+
+    .menu__wrap__nav__list__item {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .menu__wrap {
+        padding-top: 75px;
+        padding-bottom: 30px;
+    }
+
+    .promo__video {
+        height: 670px;
+    } 
+
+}

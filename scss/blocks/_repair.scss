@@ -1,0 +1,74 @@
+.repair {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    &__wrap {
+        position: relative;
+        margin-top: 40px;
+        &__title {
+            font-size: 22px;
+            font-weight: 400;
+            color: $color-dark;
+            font-family: 'Stolz-Regular';
+        }
+        &__content {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            margin-top: 20px;
+            &__services {
+                width: 580px;
+                position: relative;
+                &__list {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 15px;
+                    &__item {
+                        width: 100%;
+                        padding: 14px 20px;
+                        border-radius: 8px;
+                        border: 1px solid #DDDDDD;
+                        display: flex;
+                        align-items: center;
+                        column-gap: 20px;
+                        &__number {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 8px;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: $color-red;
+                            color: #fff;
+                        }
+                        &__text {
+                            font-size: 18px;
+                            color: $color-red;
+                            font-weight: 400;
+                            font-family: 'Stolz-Regular';
+                        }
+                    }
+                }
+                .button-main {
+                    width: 100%;
+                    margin-top: 15px;
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+            &__image {
+                width: 580px;
+                height: 535px;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+        }
+    }
+}
+
+.repair-title-mob {
+    display: none;
+}
