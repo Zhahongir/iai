@@ -2660,6 +2660,8 @@ div, a, button, span, p {
   border-radius: 8px;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
 }
 
 .menu_active {
