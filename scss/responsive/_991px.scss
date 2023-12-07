@@ -3,6 +3,45 @@
         width: 720px;
     }
 
+    .vacancies__wrap__contain__slide__item__header__info__title {
+        font-size: 16px;
+    }
+
+    .vacancies__wrap__contain__slide__item__header {
+        column-gap: 15px;
+    }
+
+    .vacancies__wrap__contain__slide__item__header__info__price {
+        font-size: 14px;
+    }
+
+    .vacancies__wrap__contain__slide__item__header__photo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .reviews__wrap__contain__slide__item__content {
+        margin-top: 20px;
+    }
+
+    .reviews__wrap__contain__slide {
+        width: 350px !important;
+    }
+
+    .reviews__wrap__contain__slide__item {
+        width: 350px;
+        height: 433px;
+    }
+
+    .news__swiper__inner__slide__item {
+        width: 350px;
+        height: 280px;
+    }
+
+    .news__swiper__inner__slide {
+        width: 350px !important;
+    }
+
     .about__wrap__head {
         flex-direction: column;
         row-gap: 15px;
@@ -140,29 +179,14 @@
         margin-top: 0;
     }
 
-    .news__swiper {
-        padding-left: calc((100% - 720px) / 2);
-    }
-
-    .news__swiper__inner__slide {
-        width: 450px !important;
-    }
-
-    .news__swiper__inner__slide__item {
-        width: 450px;
-        height: 320px;
-    }
-
-    .vacancies__wrap {
-        padding-left: calc((100% - 720px) / 2);
-    }
-
     .vacancies__wrap__contain__slide__item {
-        width: 450px;
+        width: 350px;
+        height: max-content;
+        padding: 25px 20px 20px 20px;
     }
 
     .vacancies__wrap__contain__slide {
-        width: 450px !important;
+        width: 350px !important;
     }
 
     .vacancies__wrap__contain__slide__item__content__btns {
@@ -179,12 +203,8 @@
         width: 100%;
     }
 
-    .vacancies__wrap__contain__slide__item__header__info__title {
-        font-size: 18px;
-    }
-
-    .reviews__wrap {
-        padding-left: calc((100% - 720px) / 2);
+    .vacancies__wrap__contain__slide__item__content__note__text {
+        font-size: 14px;
     }
 
     .contacts__wrap {

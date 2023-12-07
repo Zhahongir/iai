@@ -1,7 +1,7 @@
 .vacancies {
     position: relative;
     padding-top: 80px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     overflow: hidden;
     &__header {
         display: flex;
@@ -14,18 +14,24 @@
     &__wrap {
         position: relative;
         margin-top: 20px;
-        padding-left: calc((100% - 1200px) / 2);
-        padding-right: 50px;
         opacity: 0;
+        overflow: hidden;
+        border-radius: 8px;
         &__contain {
+            align-items: stretch;
             &__slide {
-                width: 550px !important;
+                width: 580px !important;
                 &__item {
-                    width: 550px;
+                    width: 580px;
                     position: relative;
                     border-radius: 8px;
                     border: 1px solid #E0E0E0;
-                    padding: 25px 30px 30px 30px;
+                    padding: 25px 30px 20px 30px;
+                    height: 550px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    cursor: grab;
                     &__header {
                         display: flex;
                         align-items: center;

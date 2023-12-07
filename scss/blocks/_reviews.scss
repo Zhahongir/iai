@@ -19,18 +19,20 @@
     &__wrap {
         position: relative;
         margin-top: 20px;
-        padding-left: calc((100% - 1200px) / 2);
-        padding-right: 50px;
+        overflow: hidden;
+        border-radius: 8px;
         opacity: 0;
         &__contain {
             &__slide {
-                width: 550px !important;
+                width: 580px !important;
                 &__item {
-                    width: 550px;
+                    width: 580px;
                     position: relative;
                     border-radius: 8px;
                     border: 1px solid #727272;
                     padding: 20px 30px 30px 30px;
+                    height: 352px;
+                    cursor: grab;
                     &__head {
                         display: flex;
                         align-items: center;

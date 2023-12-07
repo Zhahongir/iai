@@ -30,6 +30,7 @@
                         color: $color-red;
                         display: flex;
                         align-items: center;
+                        opacity: 0;
                         &__count {
                             font-weight: 700;
                             font-family: 'Buyan';
@@ -75,6 +76,7 @@
                         color: $color-red;
                         display: flex;
                         align-items: center;
+                        opacity: 0;
                         &__count {
                             font-weight: 700;
                             font-family: 'Buyan';

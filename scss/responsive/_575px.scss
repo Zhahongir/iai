@@ -5,6 +5,16 @@
         padding-right: 15px;
     }
 
+    .advantages .advantages__wrap__item__icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .advantages .advantages__wrap__item {
+        width: 48%;
+        padding: 20px 10px 30px 10px;
+    }
+
     .header__wrap__content__cta {
         display: none;
     }
@@ -94,7 +104,7 @@
     }
 
     .advantages .advantages__wrap {
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .club__wrap__images__card-1 {
@@ -186,18 +196,8 @@
     }
 
     .news__swiper__inner__slide__item {
-        width: 320px;
         height: 260px;
         padding: 15px 15px 25px 15px;
-    }
-
-    .news__swiper__inner__slide {
-        width: 320px !important;
-    }
-
-    .news__swiper {
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .news__swiper__inner__slide__item__info__title {
@@ -213,18 +213,8 @@
         padding-bottom: 40px;
     }
 
-    .vacancies__wrap {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     .vacancies__wrap__contain__slide__item {
-        width: 320px;
-        padding: 25px 20px 30px 20px;
-    }
-
-    .vacancies__wrap__contain__slide {
-        width: 320px !important;
+        padding: 25px 20px 20px 20px;
     }
 
     .vacancies__wrap__contain__slide__item__header__info__price {
@@ -257,17 +247,8 @@
     }
 
     .reviews__wrap__contain__slide__item {
-        width: 320px;
-        padding: 20px 20px 30px 20px;
-    }
-
-    .reviews__wrap__contain__slide {
-        width: 320px !important;
-    }
-
-    .reviews__wrap {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 20px;
+        height: max-content;
     }
 
     .parthers {

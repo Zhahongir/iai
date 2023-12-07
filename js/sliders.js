@@ -1,83 +1,85 @@
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 'auto',
-  spaceBetween: 20,
+  slidesPerView: 2,
+  spaceBetween: 40,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
   992: {
-    slidesPerView: 1.6,
-    spaceBetween: 20,
+    slidesPerView: 2,
+    spaceBetween: 40,
   },
   768: {
-    slidesPerView: 'auto',
+    slidesPerView: 2,
     spaceBetween: 20,
   },
   576: {
-    slidesPerView: 'auto',
-    spaceBetween: 20,
+    slidesPerView: 1,
+    spaceBetween: 0,
   },
   320: {
-    slidesPerView: 'auto',
-    spaceBetween: 20,
+    slidesPerView: 1,
+    spaceBetween: 0,
   }
   }
 });
 
 var swiper = new Swiper(".mySwiper2", {
-  slidesPerView: 'auto',
-  autoHeight: true,
-  spaceBetween: 20,
+  slidesPerView: 2,
+  spaceBetween: 40,
   navigation: {
     nextEl: ".swiper-button-next2",
     prevEl: ".swiper-button-prev2",
   },
   breakpoints: {
   992: {
-    slidesPerView: 1.6,
-    spaceBetween: 20,
+    slidesPerView: 2,
+    spaceBetween: 40,
   },
   768: {
-    slidesPerView: 'auto',
+    autoHeight: true,
+    slidesPerView: 2,
     spaceBetween: 20,
   },
   576: {
-    slidesPerView: 'auto',
-    spaceBetween: 20,
+    slidesPerView: 1,
+    autoHeight: true,
+    spaceBetween: 0,
   },
   320: {
-    slidesPerView: 'auto',
-    spaceBetween: 20,
+    slidesPerView: 1,
+    autoHeight: true,
+    spaceBetween: 0,
   }
   }
 });
 
 
 var swiper = new Swiper(".mySwiper3", {
-  slidesPerView: 'auto',
-  spaceBetween: 20,
+  slidesPerView: 2,
+  spaceBetween: 40,
   navigation: {
     nextEl: ".swiper-button-next3",
     prevEl: ".swiper-button-prev3",
   },
   breakpoints: {
   992: {
-    slidesPerView: 'auto',
-    spaceBetween: 20,
+    slidesPerView: 2,
+    spaceBetween: 40,
   },
   768: {
-    slidesPerView: 'auto',
+    slidesPerView: 2,
     spaceBetween: 20,
   },
   576: {
-    slidesPerView: 'auto',
-    autoHeight: true,
-    spaceBetween: 20,
+    slidesPerView: 1,
+    spaceBetween: 0,
   },
   320: {
     slidesPerView: 'auto',
-    spaceBetween: 20,
+    autoHeight: true,
+    spaceBetween: 0,
   }
   }
 });
